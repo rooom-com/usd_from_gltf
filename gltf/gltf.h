@@ -114,6 +114,7 @@ struct Gltf {
   // skipped (with a warning).
   enum ExtensionId : uint8_t {
     kExtensionUnknown,
+    kExtensionQuant,             // KHR_mesh_quantization
     kExtensionUnlit,             // KHR_materials_unlit
     kExtensionSpecGloss,         // KHR_materials_pbrSpecularGlossiness
     kExtensionTextureTransform,  // KHR_texture_transform
