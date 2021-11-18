@@ -144,6 +144,7 @@ void Gltf::Swap(Gltf* other) {
 
 const char* const Gltf::kExtensionIdNames[kExtensionCount] = {
     nullptr,                                // kExtensionUnknown
+    "KHR_mesh_quantization",                // kExtensionQuant
     "KHR_materials_unlit",                  // kExtensionUnlit
     "KHR_materials_pbrSpecularGlossiness",  // kExtensionSpecGloss
     "KHR_texture_transform",                // kExtensionTextureTransform
